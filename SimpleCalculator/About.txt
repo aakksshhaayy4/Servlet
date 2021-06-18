@@ -1,0 +1,10 @@
+This is an Simple web application.. In this, we can perform, arithmetic operations
+like, addition, substraction, multiplication and division operations..
+
+Here we've used one class which extends the HttpServlet..
+and then gave an method which is service().
+
+we've used one .html file for simple User interface and applied few simple styles 
+using .css file.. In .css file I've defined the styles to the given html elements..
+
+And Here is our calculator application.. 

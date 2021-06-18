@@ -1,0 +1,14 @@
+This is simple web application.. 
+In this application, I've gave information about the doGet() method
+
+Basically, in Servlet we have 5 methods
+			Get
+			Post
+			Put
+			Delete
+			Options
+			
+So, in this application, I've shown you doGet() method implementation
+
+doGet() is used to get the data.. 
+If we use get method, in query string, data will be shows in key-pair format..

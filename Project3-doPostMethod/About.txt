@@ -1,0 +1,18 @@
+This is simple web application.. 
+In this application, I've gave information about the doPost() method
+
+Basically, in Servlet we have 5 methods
+			Get
+			Post
+			Put
+			Delete
+			Options
+			
+So, in this application, I've shown you doPost() method implementation
+
+doPost() is used to get the data.. 
+If we use post method, in query string, data will not be shows..
+
+when we want to pass username or password or any sensesional data, 
+that time we can use post method..
+because it maintains the security..

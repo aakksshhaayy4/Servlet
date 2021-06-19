@@ -1,0 +1,12 @@
+So, in this project I'm going to call one servlet to another servlet.. 
+
+There are two options to perform this things.. 
+		1. RequestDispatcher
+		2. Redirect
+
+In this perticular example, we are going to see with Request Dispatcher..
+
+in it we are passing url of the class which we want to call.. 
+when we run our program.. that time first of all, 
+it will call AddServlet and from that we have write logic for dispatching the class..
+because, everything we have configured in web.xml file..			

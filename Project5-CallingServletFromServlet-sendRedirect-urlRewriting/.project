@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Project5-CallingServletFromServlet-urlRewriting</name>
+	<name>Project5-CallingServletFromServlet-sendRedirect-urlRewriting</name>
 	<comment></comment>
 	<projects>
 	</projects>

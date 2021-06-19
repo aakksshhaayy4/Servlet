@@ -1,0 +1,15 @@
+In this program we are implimenting sendRedirect concept.. 
+
+so, when we run our program, that time first of all it calls addServlet class and in
+addServlet class we are defining sendRedirect() method and passing url of the square
+class to getting called..
+
+but that time it is not calling it.. bacause.. there is no parameters to process furthure..
+
+there are two posibilities are there.. 
+	first of all sendRedirect("url").. and then in next class calling getParameter().. 
+	
+or else passing the value along with url in send redirect method
+	sendRedirect("url?val="+val);
+	
+		

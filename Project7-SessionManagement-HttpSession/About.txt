@@ -1,0 +1,13 @@
+In this project we are going to see the implementations of the sessions.
+
+so HttpSession is the interface
+	it is having two methods :
+								setAttribute()
+								getAttribute()
+								
+								
+	HttpSession session = req.getSession();
+	HttpSession session = req.setSession();
+	
+	
+	it holds the data through session.. and can access/use it to another servlet

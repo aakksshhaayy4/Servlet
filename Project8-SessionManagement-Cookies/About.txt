@@ -1,0 +1,13 @@
+In this project we are going to see the implementation of the cookies
+
+Cookie is a class
+	
+	by using cookie we can send data to another page
+	
+first of all, need to add Cookies by using addCookie() method 
+
+then in respective(target) class.. need to get all those cookies using enhanced for loop
+
+but when you get cookie.. that time you'll be having getCookies().. because you also 
+dont know how much data is there to get.. 
+		

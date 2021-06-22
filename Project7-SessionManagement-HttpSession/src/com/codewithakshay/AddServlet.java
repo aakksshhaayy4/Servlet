@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class AddServlet extends HttpServlet {
 
@@ -18,7 +19,9 @@ public class AddServlet extends HttpServlet {
 
 		int add = first + second;
 
-		res.sendRedirect("square?add="+add); 
+		HttpSession session = req.getSession();
+		
+		session.setAttribute("add", add);
 	}
 
 }

@@ -20,8 +20,10 @@ public class AddServlet extends HttpServlet {
 		int add = first + second;
 
 		HttpSession session = req.getSession();
-		
+
 		session.setAttribute("add", add);
+		
+		res.sendRedirect("square");
 	}
 
 }

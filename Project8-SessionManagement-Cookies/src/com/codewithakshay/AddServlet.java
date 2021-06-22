@@ -13,16 +13,16 @@ public class AddServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
-		int number1 = (int) req.getAttribute("num1");
-		int number2 = (int) req.getAttribute("num2");
+		int number1 = Integer.parseInt(req.getParameter("num1"));
+		int number2 = Integer.parseInt(req.getParameter("num2"));
 
 		int add = number1 + number2;
 
 		Cookie cookies = new Cookie("add", add + ""); // cookie is class.. it accepts two parameters second one also
 														// string
-		
+
 		res.addCookie(cookies);
-		
+
 		res.sendRedirect("square");
 
 	}

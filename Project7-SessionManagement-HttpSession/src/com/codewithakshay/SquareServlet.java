@@ -22,6 +22,8 @@ public class SquareServlet extends HttpServlet {
 
 		PrintWriter writer = res.getWriter();
 		writer.println("Sqare is : " + square);
+		
+		System.out.println("SquareServlet");
 
 	}
 

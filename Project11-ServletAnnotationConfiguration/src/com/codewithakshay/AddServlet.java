@@ -11,6 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/add")
 public class AddServlet extends HttpServlet {
+	
+	/**
+	 * AddServlet
+	 * Cookie
+	 * addCookie()
+	 * sendRedirect();
+	 */
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {

@@ -1,0 +1,13 @@
+In THis project we are going to understand the Annotation based configuration
+
+so there are two ways to configure our servlets :
+	1. xml based
+	2. Annotations based
+	
+	so there is no need to write lengthy code in xml file for configuration
+	
+	Annotations made our work easier..
+	
+	when we want to configure our servlet, just add @WebServlet() annotation..
+	
+	it takes an "url" as a parameter

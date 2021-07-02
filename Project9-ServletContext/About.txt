@@ -1,0 +1,13 @@
+So, in this project we are going to understand and implement the servletContext object
+
+what is servletContext ?
+	servletContext is an interface..
+	servletContext is a object and it is used for to use/take/parcel the same value 
+	in the different servlets..
+	there is only one servletContext object per web application
+	
+	we can achieve this servletcontext by defining servletContext object in
+	project and then need to configure it in web.xml file also.. 
+	
+	<context-param> tag we need to use in web.xml while configuration..
+	and configuration will be in key-value pair format..

@@ -13,6 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/square")
 public class SquareServlet extends HttpServlet {
+	
+	/**
+	 * SquareServlet
+	 * getCookies()
+	 */
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {

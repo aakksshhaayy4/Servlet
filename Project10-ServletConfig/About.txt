@@ -1,0 +1,12 @@
+In this project we are going to understand the servletConfig
+
+	So, servletConfig is also an Interface	
+	It also works same as 'context'
+		
+	servletConfig object is one per servlet
+	
+	servletConfig object is used for flexible servlets
+	
+	configuration is done by using <init-param> in perticular <servlet> tag
+	
+	if parameter not found in configuration file, it will return null value.

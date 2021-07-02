@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
-  <display-name>Project9-ServletContext</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Project9-ServletContext</display-name>
+
+	<servlet>
+		<servlet-name>contextDemo</servlet-name>
+		<servlet-class>com.codewithakshay.ContextDemo</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>contextDemo</servlet-name>
+		<url-pattern>/ctx</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>contextDemo2</servlet-name>
+		<servlet-class>com.codewithakshay.ContextDemo2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>contextDemo2</servlet-name>
+		<url-pattern>/ctx2</url-pattern>
+	</servlet-mapping>
+
+	<!-- ServletContxt configuration -->
+	<!-- It is accessible entire web application/ in multiple serlvet classes -->
+	<context-param>
+		<param-name>name</param-name>
+		<param-value>Akshay</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>age</param-name>
+		<param-value>23</param-value>
+	</context-param>
+
+
 </web-app>

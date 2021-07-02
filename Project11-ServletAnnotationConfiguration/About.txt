@@ -10,4 +10,4 @@ so there are two ways to configure our servlets :
 	
 	when we want to configure our servlet, just add @WebServlet() annotation..
 	
-	it takes an "url" as a parameter
+	it takes an "url" as a parameter..

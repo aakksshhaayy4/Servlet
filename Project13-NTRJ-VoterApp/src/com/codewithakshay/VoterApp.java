@@ -18,7 +18,7 @@ public class VoterApp extends HttpServlet {
 	 * 
 	 * 1) using hyperlink 2) using submit button 3) using java script..
 	 * 
-	 * so, in this project, we've implemented first approach i.e. using hyperlink
+	 * so, in this project, we've implemented first approach i.e. using submit button
 	 */
 
 	@Override

@@ -9,6 +9,7 @@
 		<welcome-file>vote.html</welcome-file>
 	</welcome-file-list>
 
+<!-- configuration -->
 	<servlet>
 		<servlet-name>vote</servlet-name>
 		<servlet-class>com.codewithakshay.VoterApp</servlet-class>

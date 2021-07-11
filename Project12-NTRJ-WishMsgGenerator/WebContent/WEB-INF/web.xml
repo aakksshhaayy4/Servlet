@@ -5,6 +5,7 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>Project12-NTRJ-WishMsgGenerator</display-name>
 
+<!-- welcome file cfg -->
 	<welcome-file-list>
 		<welcome-file>wish.html</welcome-file>
 	</welcome-file-list>

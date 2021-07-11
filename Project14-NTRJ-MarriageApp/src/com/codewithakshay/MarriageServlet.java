@@ -10,6 +10,17 @@ import javax.servlet.http.HttpServletResponse;
 
 public class MarriageServlet extends HttpServlet {
 
+	/*
+	 * In this web application, we have implemented Marriage Eligibility
+	 * functionality for male, female and other type of genders..
+	 * 
+	 * so in this application, user has to ender his/her name, age and has to select
+	 * perticular gender
+	 * 
+	 * based on the gender and the age, user will be test their eligibility for
+	 * marriage..
+	 */
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
@@ -24,35 +35,27 @@ public class MarriageServlet extends HttpServlet {
 		int age = Integer.parseInt(req.getParameter("page"));
 		String gender = req.getParameter("gender");
 
-		/*
-		 * if(age<18 && gender.equals("f")) {
-		 * pw.println("You are not Eligible for Marriage !"); } else {
-		 * pw.println("You are Eligible for Marriage !"); } if(age<21 &&
-		 * gender.equals("m")) { pw.println("You are not Eligible for Marriage !"); }
-		 * else { pw.println("You are Eligible for Marriage !"); } if(age<21 &&
-		 * gender.equals("o")) { pw.println("You are not Eligible for Marriage !"); }
-		 * else { pw.println("You are Eligible for Marriage !"); }
-		 */
-
+		// conditions
 		if (gender.equals("f")) {
 			if (age < 18) {
-				pw.println("You are not eligible");
+				pw.println("<h2 style='text-align : center; color : red; padding-top : 100px;' >Sorry "+name +", You are not eligible for Marriage !<h2>");
 			} else {
-				pw.println("You are eligible");
+				pw.println("<h2 style='text-align : center; color : green; padding-top : 100px;' >Congratulations "+name +", You are eligible for Marriage !<h2>");
 			}
 		} else if (gender.equals("m")) {
 			if (age < 21) {
-				pw.println("You are not eligible");
+				pw.println("<h2 style='text-align : center; color : red; padding-top : 100px;' >Sorry "+name +", You are not eligible for Marriage !<h2>");
 			} else {
-				pw.println("You are eligible");
+				pw.println("<h2 style='text-align : center; color : green; padding-top : 100px;' >Congratulations "+name +", You are eligible for Marriage !<h2>");
 			}
 		} else if (gender.equals("o")) {
 			if (age < 21) {
-				pw.println("You are not eligible");
+				pw.println("<h2 style='text-align : center; color : red; padding-top : 100px;' >Sorry "+name +", You are not eligible for Marriage !<h2>");
 			} else {
-				pw.println("You are eligible");
+				pw.println("<h2 style='text-align : center; color : green; padding-top : 100px;' >Congratulations "+name +", You are eligible for Marriage !<h2>");
 			}
 		}
+		pw.println("<a style = 'align : center;' href = 'marriage.html'>Home</a>");
 	}
 
 }

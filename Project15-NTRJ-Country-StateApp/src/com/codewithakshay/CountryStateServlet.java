@@ -10,6 +10,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class CountryStateServlet extends HttpServlet {
+	
+	/*
+	 * This is program is to get state names based on the selection of countries..
+	 * 
+	 *Actually, in this program we've implemented the 
+	 *Communication between servlet to html by using java Script...
+	 *
+	 *onSubmit, onDbClick, onChange etc..
+	 *
+	 *So, in this program we've used onChange event in html
+	 */
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
